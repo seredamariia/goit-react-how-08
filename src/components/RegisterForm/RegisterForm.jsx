@@ -3,7 +3,7 @@ import * as Yup from "yup";
 import { useId } from "react";
 import { ErrorMessage, Field, Form, Formik } from "formik";
 import style from "./RegisterForm.module.css";
-import { register } from "../../redux/auth/operation";
+import { register } from "../../redux/auth/operations";
 import { initialValuesSignUp } from "../../redux/auth/constants";
 
 const validation = Yup.object().shape({
