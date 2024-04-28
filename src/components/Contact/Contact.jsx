@@ -1,6 +1,6 @@
 import css from "./Contact.module.css";
 import { useDispatch, useSelector } from "react-redux";
-import { deleteContact } from "../../redux/contacts/contactsOps";
+import { deleteContact } from "../../redux/contacts/operations";
 import { selectIsDeletingContact } from "../../redux/contacts/selectors";
 import { CircularProgress } from "@mui/material";
 
