@@ -1,0 +1,17 @@
+.userMenu {
+    position: absolute;
+    left: 78%;
+    top: 2%;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.btnLogOut {
+    font-size: 16px;
+    border-radius: 20px;
+    background-color: blanchedalmond;
+    padding: 12px;
+    border: 2px solid orange;
+    color: black;
+}

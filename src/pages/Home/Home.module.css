@@ -1,0 +1,20 @@
+.container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.title {
+    text-align: center;
+    padding-top: 20%;
+    margin-bottom: 20px;
+}
+
+.btnContacts {
+    font-size: 20px;
+    border-radius: 20px;
+    background-color: blanchedalmond;
+    padding: 20px;
+    border: 2px solid orange;
+    color: black;
+}

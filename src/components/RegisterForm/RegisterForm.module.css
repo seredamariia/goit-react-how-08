@@ -1,0 +1,46 @@
+.buttonSignUp {
+    font-size: 20px;
+    border-radius: 20px;
+    background-color: blanchedalmond;
+    padding: 20px;
+    border: 2px solid orange;
+    color: black;
+    margin-top: 20px;
+}
+
+.registerForm {
+    padding: 20px;
+    background-color: gainsboro;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.bgPosition {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.thumb {
+    display: flex;
+    flex-direction: column-reverse;
+    margin-top: 20px;
+}
+
+.input {
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 20px;
+    outline: none;
+    width: 400px;
+}
+
+.label {
+    color: black;
+    margin-bottom: 4px;
+}
+
+.error {
+    color: red;
+}
